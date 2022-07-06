@@ -105,7 +105,7 @@ h1 {
   flex-grow: 0;
 }
 
-h3 {
+.home h3 {
   width: 327px;
   height: 27px;
   font-family: "Roboto", sans-serif;
@@ -183,16 +183,19 @@ p {
   display: flex;
 }
 
+.grid-container {
+  display: grid;
+  height: auto;
+  width: 375px;
+}
+
 .container-2 {
   position: relative;
   background: white;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: grid;
+  height: auto;
   margin: 0;
   padding: 120px 24px;
-  width: 375px;
-  height: aut0;
 }
 
 .container-2 h2 {
@@ -226,8 +229,6 @@ p {
 
 .img-placeholder {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 80px;
   width: 327px;
   height: 237px;
@@ -305,6 +306,7 @@ p {
   margin: 0;
   width: 297px;
   height: 40px;
+  gap: 5px;
 
   /* Inside auto layout */
   flex: none;
@@ -385,19 +387,20 @@ p {
 
 .card {
   position: relative;
+  margin-top: 350px;
+  margin-bottom: 75px;
+  display: grid;
+  background-image: linear-gradient(#26262600, #262626e5), url(Img-2.png);
   left: 0;
-  right: 0;
-  top: 250px;
-  bottom: 0;
-  height: 250px;
-  width: 340px;
-  background: linear-gradient(#26262600, #262626e5), url(image_processing20200427-30692-7af91d.png);
+  right: 30px;
+  width: 80%;
+  align-items: left;
 }
 
 .card h2 {
   position: relative;
-  bottom: 190px;
-  right: 40px;
+  padding-top: 80px;
+  right: 65px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -405,23 +408,14 @@ p {
   line-height: 44px;
 
   /* or 138% */
-
-  /* Neutrals/N0 */
   color: #fff;
-  display: flex;
-  justify-items: center;
-
-  /* Inside auto layout */
-  flex: 1;
-  order: 1;
-  flex-grow: 0;
 }
 
 .card p {
   width: 295px;
   height: 80px;
   position: relative;
-  bottom: 200px;
+  bottom: 30px;
   left: 20px;
 
   /* Theme 3 / Body Reguler 2 */
@@ -435,29 +429,21 @@ p {
   color: #fff;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .card ul {
   position: relative;
-  bottom: 228px;
-  left: 20px;
   display: flex;
+  flex: 1;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  gap: 12px;
+  padding-bottom: 20px;
   width: 236px;
   height: 40px;
+  gap: 25px;
 
   /* Inside auto layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
 .card li {
@@ -471,20 +457,14 @@ p {
   width: 80px;
   position: relative;
   left: 18px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .project {
-  width: 340px;
+  width: 80%;
   height: 48px;
   left: 0;
   position: relative;
-  bottom: 60%;
-  top: -90%;
+  top: 220px;
 
   /* Theme 3 / Primary 1 */
   background: #ff6b00;
@@ -496,8 +476,6 @@ p {
   border: none;
 
   /* identical to box height, or 141% */
-
-  /* Theme 2 / Neutral 11 */
   color: #fff;
 }
 
@@ -511,10 +489,306 @@ p {
   line-height: 24px;
 
   /* identical to box height, or 141% */
+  color: #f55800;
+}
+
+.card-2 {
+  position: relative;
+  display: grid;
+  justify-content: start;
+  background-image: linear-gradient(#26262600, #262626e5), url(Img-2.png);
+  left: 0;
+  right: 10px;
+  width: 80%;
+  align-items: left;
+  margin-bottom: 75px;
+  margin-top: 50px;
+}
+
+.card-2 h2 {
+  position: relative;
+  padding-top: 80px;
+  right: 65px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+  color: #fff;
+}
+
+.card-2 p {
+  width: 295px;
+  height: 80px;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+
+  /* Theme 3 / Body Reguler 2 */
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  color: #fff;
+
+  /* Inside auto layout */
+}
+
+.card-2 ul {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 236px;
+  height: 40px;
+  gap: 25px;
+
+  /* Inside auto layout */
+}
+
+.card-2 li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  padding-top: 0;
+  color: #fff;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  width: 80px;
+  position: relative;
+  left: 18px;
+}
+
+.card-2 .project {
+  width: 80%;
+  height: 48px;
+  left: 0;
+  position: relative;
+  top: 220px;
+
+  /* Theme 3 / Primary 1 */
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+
+  /* identical to box height, or 141% */
+  color: #fff;
+}
+
+.card-2 .project:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+  color: #f55800;
+}
+
+.container-3 {
   display: flex;
   justify-content: center;
+  height: 1901px;
+  background-color: black;
+  width: 375px;
+}
+
+.about h1 {
+  width: 327px;
+  height: 79px;
+  text-align: center;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+
+  /* or 122% */
+
+  letter-spacing: 0.37px;
+
+  /* Theme 3 / Primary 1 */
+  color: #ff6b00;
+
+  /* Inside auto layout */
+}
+
+.about p {
+  width: 327px;
+  height: 148px;
+
+  /* Theme 3 / Body Reguler 2 */
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Neutrals/N20 */
+
+  color: #f4f5f7;
+
+  /* Inside auto layout */
+}
+
+.resume {
   align-items: center;
-  text-align: justify;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+
+  /* Theme 3 / Primary 1 */
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
   letter-spacing: 0.03em;
+
+  /* Theme 2 / Neutral 11 */
+  color: #fff;
+
+  /* Inside auto layout */
+  background: #ff6b00;
+
+  /* Inside auto layout */
+}
+
+.resume:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
   color: #f55800;
+}
+
+.write {
+  position: relative;
+  height: 300.03px;
+  top: 20px;
+  bottom: 9.36%;
+  left: 166px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.list-1 ul {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  padding-left: 0%;
+  margin-left: 0%;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+}
+
+.lan {
+  margin-top: 150px;
+  font-family: "InaiMathi", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+  color: #fff;
+
+  /* Inside auto layout */
+}
+
+.lan img {
+  width: 8%;
+  height: 8%;
+  padding-right: 20px;
+}
+
+.fram {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+
+  /* Inside auto layout */
+}
+
+.fram img {
+  width: 5%;
+  height: 5%;
+  padding-right: 20px;
+}
+
+.list-2 ul {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  padding-left: 0%;
+  margin-left: 0%;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+}
+
+.skills {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+
+  /*  or 138% */
+  color: #fff;
+
+  /* Inside auto layout */
+}
+
+.skills img {
+  width: 6%;
+  height: 6%;
+  padding-right: 20px;
+}
+
+.list-3 ul {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  padding-left: 0%;
+  margin-left: 0%;
+  list-style: none;
+  text-align: center;
+  color: #fff;
 }
