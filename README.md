@@ -29,6 +29,11 @@ With this Project you can create a portfolio Mobile version website
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
 
 
+👤 **Kalkidan Daniel**
+
+- GitHub: [@githubhandle](https://github.com/kal2944)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kalkidan-daniel-b2a204238//)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
