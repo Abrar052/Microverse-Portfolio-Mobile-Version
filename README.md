@@ -1,9 +1,9 @@
 # Microverse Portfolio Project(Mobile Version)
->This is a Microverse Portfolio Project. It is only Mobile version as per Microverse  requirements. Two languages HTML and CSS were used to make it.
+>This is a Microverse Portfolio Project. It is converted from Mobile version to Desktop version as per Microverse  requirements. Two languages HTML and CSS were used to make it.
 
 ## Built With
 
-- Major languages (HTML % CSS)
+- Major languages (HTML & CSS)
 - Frameworks (HTML & CSS)
 - Technologies used (VS Code)
 
@@ -18,7 +18,7 @@ HTML & CSS
 VS Code
 
 ### Usage
-With this Project you can create a portfolio Mobile version website
+With this Project you can create a portfolio website
 
 ## Authors
 
@@ -28,11 +28,6 @@ With this Project you can create a portfolio Mobile version website
 - Twitter: [@twitterhandle](https://twitter.com/bc160400820)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
 
-
-👤 **Kalkidan Daniel**
-
-- GitHub: [@githubhandle](https://github.com/kal2944)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kalkidan-daniel-b2a204238//)
 
 ## 🤝 Contributing
 
