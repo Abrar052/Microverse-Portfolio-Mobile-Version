@@ -10,7 +10,7 @@ navToggle.addEventListener('click', () => {
     brand.style.display = 'none';
   } else {
     icon.classList.replace('fa-times', 'fa-bars');
-    brand.style.display = 'flex';
+    brand.style.display = '';
   }
 });
 
