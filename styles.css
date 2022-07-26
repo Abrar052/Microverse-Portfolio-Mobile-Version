@@ -10,7 +10,7 @@ body {
 
 .nav-mobile {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 1rem 0;
 }
 
@@ -28,7 +28,7 @@ nav ul li a {
 .brand a {
   text-decoration: none;
   color: #505f79;
-  padding-left: 1.5rem;
+  padding-right: 340px;
 }
 
 .navToggle {
@@ -51,6 +51,9 @@ nav ul li a {
 
 .nav-open {
   height: 100vh;
+  border-bottom: solid #505f79;
+  border-radius: 10px;
+  border-width: 10px;
 }
 
 .section-1 {
@@ -327,14 +330,6 @@ form textarea {
 /* Hover Section */
 
 nav ul li a:hover {
-  color: #36b37f;
-}
-
-.brand a:hover {
-  color: #36b37f;
-}
-
-.navToggle:hover {
   color: #36b37f;
 }
 
