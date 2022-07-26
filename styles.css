@@ -22,8 +22,7 @@ nav ul li a {
   font-size: 2rem;
   font-weight: 700;
   display: flex;
-  justify-content: center;
-  margin: 0.5rem 0;
+  margin: 3rem 0;
 }
 
 .brand a {
@@ -34,7 +33,7 @@ nav ul li a {
 
 .navToggle {
   border: transparent;
-  background: transparent;
+  background: white;
   color: #505f79;
   font-size: 1.5rem;
   cursor: pointer;
