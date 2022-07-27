@@ -103,6 +103,10 @@ nav ul li a {
   color: #505f79;
 }
 
+.contact .fa-github {
+  color: #505f79;
+}
+
 .project h1 {
   font-family: 'inter', sans-serif;
   font-style: normal;
@@ -337,6 +341,10 @@ nav ul li a:hover {
   color: #36b37f;
 }
 
+.contact .fa-github:hover {
+  color: #36b37f;
+}
+
 .button-2:hover {
   background-color: #172b4d;
 }
@@ -364,10 +372,116 @@ nav ul li a:hover {
   max-height: 82%;
   background-color: #c1c7d0f0;
   overflow: auto !important;
-  z-index: 9999;
+  z-index: 100;
+}
+
+.modal-details {
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.close {
+  float: right;
+  background-color: #ebecf0;
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pop-up-image {
+  display: block;
+  height: inherit;
+  width: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #172b4d;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.list-btn {
+  margin-left: 10px;
+  list-style: none;
+  background-color: #ebf0ee;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #3a4a42;
+  padding: 8px 12px;
+}
+
+.description {
+  font-family: Inter, sans-serif;
+  color: #344563;
+}
+
+.text-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-arrow-alt-circle-up,
+.fa-github {
+  color: white;
+}
+
+.live-link {
+  display: none;
+}
+
+.check-source {
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #36b37f;
+  padding: 10px;
+  margin: 2px;
 }
 
 @media screen and (min-width: 768px) {
+  .live-link {
+    display: flex;
+  }
+
+  .check {
+    display: none;
+  }
+
   html {
     font-size: 18px;
   }
