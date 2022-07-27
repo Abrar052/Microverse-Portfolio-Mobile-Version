@@ -103,10 +103,6 @@ nav ul li a {
   color: #505f79;
 }
 
-.contact .fa-github {
-  color: #505f79;
-}
-
 .project h1 {
   font-family: 'inter', sans-serif;
   font-style: normal;
@@ -341,10 +337,6 @@ nav ul li a:hover {
   color: #36b37f;
 }
 
-.contact .fa-github:hover {
-  color: #36b37f;
-}
-
 .button-2:hover {
   background-color: #172b4d;
 }
@@ -452,8 +444,7 @@ nav ul li a:hover {
   color: white;
 }
 
-.fa-arrow-alt-circle-up,
-.fa-github {
+.con-git {
   color: white;
 }
 

@@ -88,11 +88,11 @@ window.addEventListener('DOMContentLoaded', () => {
             <div class='live-link'>
               <button class='check-source'>
               <a href=${modalData.liveVersion} class='github-link'>
-              See Live <span><i class='far fa-arrow-alt-circle-up'></i></span>
+              See Live <span><i class='con-git far fa-arrow-alt-circle-up'></i></span>
               </a></button>
               <button class='check-source'>
               <a href=${modalData.sourseUrl} class='github-link'>
-                See source <span<i class='fab fa-github'></i></i></span>
+                See source <span<i class='con-git fab fa-github'></i></i></span>
               </a>
               </button>
             </div>
