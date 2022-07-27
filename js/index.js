@@ -2,6 +2,8 @@ const navToggle = document.querySelector('#navToggle');
 const icon = document.querySelector('.fa-bars');
 const nav = document.querySelector('#nav-desktop');
 const brand = document.querySelector('#brand');
+const modal = document.querySelector('.modal');
+const btn = document.querySelectorAll('.button');
 
 navToggle.addEventListener('click', () => {
   nav.classList.toggle('nav-open');
