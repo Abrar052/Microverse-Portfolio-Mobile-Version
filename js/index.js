@@ -5,6 +5,10 @@ const brand = document.querySelector('#brand');
 const modal = document.querySelector('.modal');
 const btn = document.querySelectorAll('.button');
 
+const form  = document.getElementsByTagName('form')[0];
+const email = document.querySelector('#email');
+const emailError = document.querySelector('#email + span.error');
+
 const data = [
   {
     title: 'Keeping track of hundreds of components',
