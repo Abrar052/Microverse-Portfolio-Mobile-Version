@@ -466,7 +466,7 @@ nav ul li a:hover {
 
 /* Form validation */
 
-input:invalid{
+input:invalid {
   border-color: #d0d9d4;
   background-color: white;
 }
