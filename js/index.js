@@ -163,3 +163,18 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+const formValues = {};
+if (window.localStorage.getItem('show data')) {
+  const formObject = JSON.parse(window.localStorage.getItem('show data'));
+  form.name.value = formObject.name;
+  form.email.value = formObject.email;
+  form.message.value = formObject.comments;
+}
+function collectFormData() {
+  formValues.name = form.name.value;
+  formValues.email = form.email.value;
+  formValues.message = form.comments.value;
+  window.localStorage.setItem('show data', JSON.stringify(formValues));
+}
+form.addEventListener('submit', collectFormData);
