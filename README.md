@@ -1,5 +1,5 @@
-# Microverse Portfolio Project(Mobile Version)
->This is a Microverse Portfolio Project. It is created with Mobile First and converted from Mobile version to Desktop version as per Microverse  requirements. Two languages HTML and CSS were used to make it. In CSS both Flex Box and Grid system were used to make it more responsive.
+# Portfolio Project(Mobile Version)
+>This is a Portfolio Project. It is created with Mobile First and converted from Mobile version to Desktop version as per  requirements. Two languages HTML and CSS were used to make it. In CSS both Flex Box and Grid system were used to make it more responsive.
 
 ## Built With
 
